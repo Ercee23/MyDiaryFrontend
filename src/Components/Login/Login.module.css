@@ -1,0 +1,68 @@
+.container {
+    border-radius: 25px;
+    margin: calc(3rem + 86px) auto auto;
+    background: rgb(170,170,170);
+    padding: 0 20px;
+    width: 50%;
+    min-height: 600px;
+    min-width: 550px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: calc(3rem + 5%);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.inputField {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 50%;
+    transition: all 0.2s ease-out;
+    margin: auto auto 2rem;
+    background: rgb(196,196,196)
+}
+
+
+.inputField:focus,
+.inputField:hover {
+    border: 1px solid rgb(108,117,125);
+    background: white;
+    outline: none;
+    width: 70%;
+}
+
+.inputLabel {
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.forgetPassword {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.forgetPassword:hover {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logButton {
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.group {
+    text-align: center;
+}

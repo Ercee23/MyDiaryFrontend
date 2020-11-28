@@ -1,0 +1,127 @@
+.MessageBox {
+    display: flex;
+    position: absolute;
+    width: 15%;
+    height: 2rem;
+    color: black;
+    border-radius: 8px;
+    margin-right: 5px;
+    background: rgba(220,220,220,1);
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-left: 5px;
+    bottom: 0;
+    align-self: flex-end;
+    transition: all 0.3s linear;
+    right: 0.5rem;
+}
+
+.MessageBoxOpen {
+    display: flex;
+    position: absolute;
+    width: 15%;
+    height: 15rem;
+    color: black;
+    border-radius: 8px;
+    margin-right: 5px;
+    background: rgba(220,220,220,1);
+    vertical-align: middle;
+    padding-top: 5px;
+    flex-wrap: wrap;
+    bottom: 0;
+    transition: all 0.3s linear;
+    right: 0.5rem;
+}
+
+.Name {
+    cursor: pointer;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    width: 75%;
+    margin-bottom: 0;
+    height: fit-content;
+}
+
+.Button {
+    height: 0.5rem;
+    width: 20%;
+    border: none;
+    background: inherit;
+    padding: 0;
+    color: black !important;
+}
+
+.Button:active,
+.Button:focus,
+.Button:hover {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    background-color: inherit !important;
+    font-size: 1.1rem;
+}
+
+.MessageField {
+    background: white;
+    height: 11rem;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 6px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.MessageField::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.NewMessage {
+    background: white;
+    height: 2rem;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+.SendButton {
+    padding: 0 0 0 5px;
+    width: fit-content;
+    border: none;
+    background: inherit;
+    color: black !important;
+}
+
+
+.SendButton:active,
+.SendButton:focus,
+.SendButton:hover {
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    background-color: inherit !important;
+}
+
+.MessageText {
+    width: 100%;
+    border: none;
+    font-size: 0.8rem;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.MessageText:active,
+.MessageText:focus,
+.MessageText:hover {
+    outline: none;
+    border: none;
+}
+
+.Messages {
+    width: 100%;
+}

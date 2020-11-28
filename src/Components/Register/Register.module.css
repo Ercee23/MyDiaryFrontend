@@ -1,0 +1,77 @@
+.container {
+    border-radius: 25px;
+    margin: calc(3rem + 86px) auto auto;
+    background: rgb(170,170,170);
+    padding: 0 20px;
+    width: 50%;
+    min-height: 600px;
+    min-width: 550px;
+    text-align: center;
+}
+
+.form {
+    margin-top: 10%;
+    padding: 0 20%
+}
+
+h1 {
+    color: white;
+    padding-top: calc(3rem + 5%);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.inputField {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 50%;
+    transition: all 0.2s ease-out;
+    margin: auto auto 2rem;
+    background: rgb(196,196,196)
+}
+
+
+.inputField:focus,
+.inputField:hover {
+    border: 1px solid rgb(108,117,125);
+    background: white;
+    outline: none;
+    width: 70%;
+}
+
+.inputLabel {
+    color: white;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.termsField {
+    margin-bottom: 2rem;
+    padding: 0;
+    color: white
+}
+
+.termsField input{
+    transform: scale(1.5);
+    margin-right: 1rem;
+}
+
+input[type='checkbox']:after {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: white;
+}
+input[type='checkbox']:checked:after {
+    background: rgb(110,110,110);
+}
+
+.regButton {
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    width: 50%;
+}

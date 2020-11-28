@@ -1,0 +1,94 @@
+.Home {
+    margin-top: 5.2rem;
+    text-align: center;
+    height: calc(100vh - 5.2rem);
+    margin-right: auto;
+    margin-left: auto;
+    background: #212529;
+    width: 90%;
+    overflow-y: auto;
+}
+
+.Home::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.Header {
+    color: white;
+    padding-top: 3rem;
+}
+
+.Diary {
+    border: 1px solid white;
+    width: 80%;
+    border-radius: 12px;
+    background: #212529;
+    min-height: 5rem;
+    margin: auto auto 2rem;
+    cursor: pointer;
+    text-align: start;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.Title {
+    color: white;
+    text-align: start;
+    margin-left: 1rem;
+    margin-right: 0;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.Date {
+    text-align: end;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 1.5rem;
+}
+
+.Content {
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.Content::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.MonthHeader {
+    color: white;
+    text-align: center;
+}
+
+.NoDiary {
+    margin-top: 3rem;
+    color: white;
+}
+
+.refreshButton {
+    background: #212529;
+    border-radius: 12px;
+    color: white;
+    border: 1px solid #212529;
+    margin-bottom: 1rem;
+}
+
+.refreshButton:active,
+.refreshButton:focus,
+.refreshButton:hover {
+    outline: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    border: 1px solid white !important;
+}

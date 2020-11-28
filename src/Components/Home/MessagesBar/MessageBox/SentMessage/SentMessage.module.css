@@ -1,0 +1,17 @@
+.Message {
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 65%;
+    background-color: white;
+    margin-left: 30%;
+    margin-bottom: 1rem;
+}
+
+.MessageContent {
+    padding-right: 5px;
+    color: black;
+    text-align: end;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}

@@ -1,0 +1,50 @@
+.LeftCommandBar {
+    top: 5.2rem;
+    height: calc(100vh - 5.2rem);
+    width: 15%;
+    margin-right: 0;
+    position: fixed;
+    background: rgb(170,170, 170);
+    left: 0;
+    padding-top: 4rem;
+    min-width: 200px;
+}
+/*
+.navItem {
+    color: white;
+    background: #212529;
+}
+
+.navItem a {
+    color: white;
+    margin-top: 4rem;
+}
+
+.navItem a:hover {
+    color: rgb(220, 220, 220);
+}
+*/
+.Button {
+    display: block;
+    border: none;
+    background: none;
+    margin-bottom: 5rem;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.Button:active,
+.Button:focus,
+.Button:hover {
+    outline: none;
+    border: none;
+    box-shadow: none !important;
+    background-color: inherit !important;
+    color: #333;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+}

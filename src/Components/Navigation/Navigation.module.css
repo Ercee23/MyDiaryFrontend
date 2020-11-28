@@ -1,0 +1,68 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(150,150,150,1) 0%, rgba(150,150,150,1) 12%, rgba(190,190,190,1) 55%, rgba(220,220,220,1) 80%, rgba(250,250,250,1) 100%);
+    z-index: 1;
+}
+
+.SearchBar {
+    margin-right: 12rem;
+}
+
+.SearchField div input{
+    border-radius: 8px;
+}
+
+.SearchField div input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.SearchButton {
+    border-radius: 8px;
+    margin-left: 1.5rem;
+    outline: none;
+    background: #212529;
+    border: none;
+}
+
+.SearchButton:disabled {
+    background: #212529;
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.SearchButton:hover,
+.SearchButton:focus {
+    color: #212529;
+    background: #cccccc;
+    border: none;
+    box-shadow: none;
+}
+
+.loggedinBar {
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    width: fit-content;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    vertical-align: middle;
+    align-self: center;
+}
+
+.logout {
+    width: fit-content;
+    margin: 0 5rem 0 0;
+}
+
+.logoutButton {
+    padding: 0;
+}

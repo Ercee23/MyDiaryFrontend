@@ -1,0 +1,93 @@
+.NewDiary {
+    margin-top: 5.2rem;
+    text-align: center;
+    height: calc(100vh - 5.2rem);
+    margin-right: auto;
+    margin-left: auto;
+    background: #212529;
+    width: 90%;
+}
+
+.Header {
+    color: white;
+    padding-top: 3rem;
+}
+
+.datePicker {
+    border-radius: 12px;
+    display: inline-block;
+    width: 10rem;
+    text-align: center;
+    background: #212529;
+    color: white;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+
+.Label {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.FormGroup {
+    display: inline-block;
+}
+
+.PickerField {
+    float: right;
+}
+
+.datePicker:hover,
+.datePicker:focus,
+.datePicker:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid white;
+}
+
+.Form {
+    padding: 2rem;
+    text-align: start;
+    z-index: 1;
+}
+
+.Submit {
+    margin-left: 40%;
+    width: 20%;
+    margin-right: 40%;
+}
+
+.content {
+    height: 350px !important;
+    border-radius: 12px;
+    color: white;
+    background: #333333;
+}
+
+.content:hover,
+.content:focus,
+.content:active{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    color: white;
+    background: #333333;
+}
+
+.title {
+    border-radius: 12px;
+    color: white;
+    background: #333333;
+}
+.title:hover,
+.title:focus,
+.title:active{
+    outline: none;
+    box-shadow: none !important;
+    border: 1px solid #ccc;
+    color: white;
+    background: #333333;
+}

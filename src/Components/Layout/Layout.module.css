@@ -1,0 +1,28 @@
+.background {
+    position: fixed;
+    top: 86px;
+    left: 0;
+    height: calc(100vh);
+    width: 100%;
+    background-image: url("diary.jpg");
+    background-size: 100% 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.Container {
+     margin-right: 0;
+}
+
+.FriendsLayout {
+    min-width: 200px;
+}
+
+.LeftCommandBar {
+    min-width: 200px;
+}
+
+.MidLayout {
+    min-width: 400px;
+    width: 800px;
+}

@@ -1,0 +1,78 @@
+.FriendsLayout {
+    position: fixed;
+    top: calc(100vh - 3rem);
+    right: 0;
+    background-color: #ccc;
+    height: 3rem;
+    transition: all 0.5s linear;
+    width: 15%;
+    overflow: hidden;
+    min-width: 200px;
+}
+
+.stretch {
+    top: 5.2rem;
+    height: 100vh;
+    overflow: auto;
+}
+
+.FriendHeader {
+    height: 3rem;
+    margin-top: 3px;
+    padding: 2px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.FriendHeaderText {
+    padding-left: 10px;
+}
+
+.FriendHeaderButton {
+    padding-left: 0;
+    padding-right: 0;
+    flex-grow: 0;
+}
+
+
+.FriendHeaderButton button {
+    border: none;
+    background-color: #ccc;
+    color: black;
+    padding-left: 0;
+}
+
+.FriendHeaderButton button:active,
+.FriendHeaderButton button:focus,
+.FriendHeaderButton button:hover {
+    outline: none;
+    background-color: #ccc !important;
+    color: black !important;
+    border: none;
+    box-shadow: none !important;
+}
+
+.Friend {
+    text-align: center; 
+    width: 100%;
+    cursor: pointer;
+}
+
+.FriendBodyVisible {
+    transition: all 0.5s linear;
+    opacity: 1;
+    height: 3rem;
+    border: 1px solid #aaa;
+    line-height: 3rem;
+    display: block;
+}
+
+.FriendBodyInvisible {
+    transition: all 0.5s linear;
+    opacity: 0;
+    height: 3rem;
+    border: 1px solid #aaa;
+    line-height: 3rem;
+    display: none;
+}
